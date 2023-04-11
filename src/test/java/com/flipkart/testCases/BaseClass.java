@@ -61,7 +61,7 @@ public class BaseClass {
 		}
 		
 		else if (br.equals("ie")) {
-			// opens the browserr
+			// opens the browser
 			WebDriverManager.iedriver().setup();
 			driver = new InternetExplorerDriver();
 		}
