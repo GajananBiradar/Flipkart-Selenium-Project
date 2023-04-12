@@ -42,4 +42,10 @@ public class CartPage2 extends BaseClass{
 		clickRemove.click();;
 	}
 	
+	public void clickFromCart()
+	{
+		clickRemove.click();;
+	}
+	
+	//Added a comment
 }
