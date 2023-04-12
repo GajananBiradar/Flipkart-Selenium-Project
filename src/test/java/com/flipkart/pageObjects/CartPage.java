@@ -11,7 +11,7 @@ import com.flipkart.testCases.BaseClass;
 
 public class CartPage extends BaseClass{
 
-	//Added correct comment in GjLocal 
+	//Added comment in mainLocal
 	
 	public WebDriver ldriver;
 	
