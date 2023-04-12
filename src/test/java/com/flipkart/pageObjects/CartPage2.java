@@ -11,6 +11,7 @@ import com.flipkart.testCases.BaseClass;
 
 public class CartPage2 extends BaseClass{
 
+	//Added Comment in github
 	
 	public WebDriver ldriver;
 	
@@ -30,7 +31,9 @@ public class CartPage2 extends BaseClass{
 	@CacheLookup
 	WebElement priceDetails;
 	
-
+@FindBy(xpath="//span[text()='Price details']")
+	@CacheLookup
+	WebElement priceDetail;
 	
 	
 	public void clickRemoveFrom()
