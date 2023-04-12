@@ -31,13 +31,9 @@ public class CartPage2 extends BaseClass{
 	WebElement priceDetails;
 	
 
-	public WebElement priceDetails()
-	{
-		return priceDetails;
-	}
 	
 	
-	public void clickRemoveFromCart()
+	public void clickRemoveFrom()
 	{
 		clickRemove.click();;
 	}
